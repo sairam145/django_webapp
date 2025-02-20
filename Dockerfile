@@ -23,7 +23,7 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Copy project files into container
 COPY . /app/
 
-# Expose port for Django app (default: 8000)
+# Expose port or Django app (default: 8000)
 EXPOSE 8000
 
 # Command to start Django server (adjust if using Gunicorn)
