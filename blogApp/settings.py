@@ -32,6 +32,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 ALLOWED_HOSTS = ['ram9893.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['www.devedze.com,' 'devedze.com']
+
 
 
 
