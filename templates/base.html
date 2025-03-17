@@ -27,7 +27,7 @@
             <a href="/" class="p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800">Home</a>
             <a href="/about" class="p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800">About</a>
             <a href="/contact" class="p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800">Contact</a>
-            <a href="/blog" class="p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800">Blog</a>
+<!--            <a href="/blog" class="p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800">Blog</a>-->
             <a href="/projects" class="p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800">Projects</a>
             <i class="searchBtn1 p-2 px-3 my-1 text-white rounded-[8px] hover:bg-gray-800 mt-1 bi bi-search text-sm cursor-pointer"></i>
           </div>
@@ -42,28 +42,32 @@
       </div>
 
       {% block content %}{% endblock %}
-      
-    <footer class='bg-gray-900 text-white p-8 pb-2 grid md:grid-cols-3 md:gap-10 lg:gap-20 xl:gap-30 2xl:gap-40 md:px-40'>
-        <div class='blog-name'>
-            <p class='text-xl font-bold'>Sai Ram<p>
-            <p class='my-3 text-justify'>Explore my developer portfolio and blog to empower your development skills and create something amazing together.</p>
-        </div>
-        <div class='pages'>
-            <p class='text-xl font-bold'>Pages<p>
-            <ul class='my-3'>
-                <li><a href='/'><i class="bi bi-arrow-right-short"></i> Privacy Policy</a></li>
-                <li><a href='/'<i class="bi bi-arrow-right-short"></i> Disclaimer</a></li>
-            </ul>
-        </div>
-        <div class='socials'>
-            <p class='text-xl font-bold'>Follow me<p>
-            <ul class='my-3 flex text-xl'>
-                <li><a href='https://github.com/sairam145' class='hover:text-blue-100'><i class="bi bi-github"></i></a></li>
-                <li class='px-2'><a href='https://www.linkedin.com/in/sairam-nadipalli/' class='hover:text-blue-100'><i class="bi bi-linkedin"></i></a></li>
-                <li class='px-2'><a href='https://www.instagram.com/yourusername/' class='hover:text-blue-100'><i class="bi bi-instagram"></i></a></li>
-            </ul>
-        </div>
-    </footer>
+      <hr style="border: none; height: 2px; background-image: linear-gradient(to right, #00bfff, #03a9f4); margin: 0;">
+
+
+  <footer class='bg-gray-900 text-white p-8 pb-2 grid md:grid-cols-3 md:gap-10 lg:gap-20 xl:gap-30 2xl:gap-40 md:px-40'>
+    <div class='blog-name'>
+        <p class='text-xl font-bold'>Sai Ram</p>
+        <p class='my-3 text-justify'>Explore my developer portfolio and blog to empower your development skills and create something amazing together.</p>
+    </div>
+    <div class='pages'>
+        <p class='text-xl font-bold'>Pages</p>
+        <ul class='my-3'>
+            <li><a href='/'><i class="bi bi-arrow-right-short"></i> Privacy Policy</a></li>
+            <li><a href='/'><i class="bi bi-arrow-right-short"></i> Disclaimer</a></li>
+        </ul>
+    </div>
+    <div class='socials'>
+        <p class='text-xl font-bold'>Follow me</p>
+        <ul class='my-3 flex text-xl'>
+            <li><a href='https://github.com/sairam145' class='text-gray-400 hover:text-blue-100'><i class="bi bi-github"></i></a></li>
+            <li class='px-2'><a href='https://www.linkedin.com/in/sairam-nadipalli/' class='text-blue-500 hover:text-blue-100'><i class="bi bi-linkedin"></i></a></li>
+            <li class='px-2'><a href='https://twitter.com/your_twitter_handle' class='text-blue-400 hover:text-blue-100'><i class="bi bi-twitter"></i></a></li>
+            <li class='px-2'><a href='https://www.instagram.com/sairam_nadipalli?igsh=ZWJpdGgxeDFodXIz&utm_source=qr' class='text-pink-500 hover:text-blue-100'><i class="bi bi-instagram"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
     <div class='bg-slate-800 text-white text-justify flex justify-center items-center'>
         <p class='p-2'>Copyright &copy;<script>document.write(new Date().getFullYear())</script> <span class="text-blue-300 text-justify"><a href="/" target="_blank">Sai Ram</a></span> All Rights Reserved</p>
     </div>
